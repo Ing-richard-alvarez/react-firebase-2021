@@ -10,7 +10,7 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 const App = () => {
   
   return(
-    <div className="container">
+    <div className="w-100 mx-0">
         <Router>
             <Menu></Menu>
             <Switch>
