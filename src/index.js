@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
-import $ from 'jquery'
-import Popper from 'popper.js'
+
+import 'jquery'
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap'
 
+import App from './App';
 
 ReactDOM.render(
   <React.StrictMode>

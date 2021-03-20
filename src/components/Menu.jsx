@@ -5,14 +5,14 @@ const Menu = () => {
 
     return(
         <div className="w-100 mx-0">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#">Firebase</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+            <nav className="navbar navbar-expand-lg navbar-light bg-light">
+                <Link className="navbar-brand" to="/">Firebase</Link>
+                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item active">
+                <div className="collapse navbar-collapse" id="navbarNav">
+                    <ul className="navbar-nav">
+                        <li className="nav-item active">
                             <Link className="nav-link" to="/">Inicio <span class="sr-only">(current)</span></Link>
                         </li>
                         <li class="nav-item">
